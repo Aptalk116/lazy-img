@@ -53,6 +53,6 @@ else{
 var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};
 a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);
 $(function(){$("img").lazyload({
-placeholder:"https://www.freeiconspng.com/uploads/load-icon-png-32.png
+placeholder:"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 50 50'><path d='M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z' fill='rgba(0,0,0,.1)'><animateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 25 25' to='360 25 25' dur='0.6s' repeatCount='indefinite'/></path></svg>
 " //change placeholder image here
 ,effect:"fadeIn",threshold:"-50"})});
