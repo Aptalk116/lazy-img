@@ -63,5 +63,7 @@ else{
 var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};
 a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);
 $(function(){$("img").lazyload({
-placeholder:"https://1.bp.blogspot.com/-urzjHEuLrxM/YRQ_Zcy_2QI/AAAAAAAAAng/qbNF-dfbRQ81T_Oc5pgRX-isFOWG1I17ACLcBGAsYHQ/w200-h200/fastloading.gif" //change placeholder image here
+placeholder:"data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+        9TXL0Y4OHwAAAABJRU5ErkJggg==" //change placeholder image here
 ,effect:"fadeIn",threshold:"-50"})});
