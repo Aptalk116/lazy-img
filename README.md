@@ -8,5 +8,6 @@ See [Demo](https://ekrishnabani.blogspot.com)
 You can change placeholder image or gif.
 
 # Usage
-
+`<pre>` (Preformatted Text).
+    
 <script async src='https://cdn.jsdelivr.net/gh/Aptalk116/lazy-img@main/lazy-img-min.js'></script>
