@@ -52,7 +52,7 @@ else{
 var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};
 a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);
 $(function(){$("img").lazyload({
-placeholder:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwZwn6Butm1Y10nJqaFZFMLn4bjYLAEXgtRxwiO8w0uPSzI0Lmi5zNu7XS6TFWbNJGkc4S_BoaNQ603Dk9VgAUMHYOy7sjvww5ekrvCHtPlKE1_Y6Cd3eUDIJ1QeC_dPVTD39hHy8vR0c5zgo4erJz441eNxtSkYaacvlKZN2uDqvciTIxmwgMFsr_/s320/KrishnaBaniLoading.webp
+placeholder:"https://1.bp.blogspot.com/-urzjHEuLrxM/YRQ_Zcy_2QI/AAAAAAAAAng/qbNF-dfbRQ81T_Oc5pgRX-isFOWG1I17ACLcBGAsYHQ/w200-h200/fastloading.gif
 
 " //change placeholder image here
 ,effect:"fadeIn",threshold:"-50"})});
