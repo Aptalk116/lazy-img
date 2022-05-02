@@ -52,7 +52,5 @@ else{
 var d=a(c.container).offset().left}return d>=a(b).offset().left+c.threshold+a(b).width()};
 a.extend(a.expr[":"],{"below-the-fold":"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold":"!$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold : 0, container: window})"})})(jQuery);
 $(function(){$("img").lazyload({
-placeholder:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEj22eF5w158hiUZArlxdUL1_hJfvjFTNBHlbpXce3Lot2dtLKzriDJSntYZB7c6f02-cab2Fm8L30i4RRPvWctIjXhTV6HyIHHr7_CYVNaY4EnDMDDGgS1A3M6QTP-Hg6yO7QrEXpSnvIHUzZANeJmnw-HayPtzHNFCnuDFSCnYL1TwdwPmbDqz9c/s320/krishna-bani.webp
-
-" //change placeholder image here
+placeholder:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEj22eF5w158hiUZArlxdUL1_hJfvjFTNBHlbpXce3Lot2dtLKzriDJSntYZB7c6f02-cab2Fm8L30i4RRPvWctIjXhTV6HyIHHr7_CYVNaY4EnDMDDGgS1A3M6QTP-Hg6yO7QrEXpSnvIHUzZANeJmnw-HayPtzHNFCnuDFSCnYL1TwdwPmbDqz9c/s320-rw/krishna-bani.webp" //change placeholder image here
 ,effect:"fadeIn",threshold:"-50"})});
