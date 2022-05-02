@@ -11,8 +11,8 @@ To implement lazy load script find `</body>` tag.
 
 And paste the script above the body tag.
 
-```
-<script async src='https://cdn.jsdelivr.net/gh/Aptalk116/lazy-img@main/lazy-img-min.js'></script>
+```html
+<script async='async' src='https://cdn.jsdelivr.net/gh/Aptalk116/lazy-img@main/lazy-img-min.js' ></script>
 ```
 
 # what makes this code awesome
